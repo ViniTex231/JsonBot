@@ -3,10 +3,10 @@ import requests
 import json
 
 # Caminho para o arquivo
-file_path = r"C:\Users\tev3ca\Desktop\Jsons\installment.txt"
+file_path = r"C:\"
 
 # URL do endpoint para enviar os dados
-url = "http://10.234.242.212:8000/api/v1/installments/"
+url = "http://"
 
 def send_request(json_data):
     try:
